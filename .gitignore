@@ -1,6 +1,4 @@
-# elm-package generated files
-elm-stuff/
-# elm-repl generated files
-repl-temp-*
-
-elm.js
+# folders to ignore
+/.cache
+/elm-stuff
+/node_modules

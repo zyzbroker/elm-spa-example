@@ -1,0 +1,16 @@
+{
+  "name": "elm-spa-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zyzbroker/elm-spa-example.git",
+  "author": "david.zhao@resentek.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel -p 8080 --open microsoft-edge index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "elm-hot": "^1.1.5",
+    "node-elm-compiler": "^5.0.5"
+  }
+}

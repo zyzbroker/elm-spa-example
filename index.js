@@ -22,6 +22,7 @@ window.onload = (args) => {
   window.addEventListener("storage", function(event) {
     if (event.storageArea === localStorage && event.key === storageKey) {
       app.ports.onStoreChange.send(event.newValue);
+      console.log("--index.js port call onStoreChange --")
     }
   }, false);
 }

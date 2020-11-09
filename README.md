@@ -11,3 +11,5 @@ Understanding the design principle behind this **Elm SPA example**. We appreciat
 ```sh
     yarn run dev
 ```
+
+![SPA App screenshot](/assets/images/screenshot.png)

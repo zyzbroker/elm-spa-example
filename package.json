@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel -p 8080 --open microsoft-edge index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "clean": "rm -rf .cache && rm -rf dist && rm -rf elm-stuff"
   },
   "devDependencies": {
     "elm-hot": "^1.1.5",
